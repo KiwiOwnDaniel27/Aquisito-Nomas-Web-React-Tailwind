@@ -26,7 +26,7 @@ export const listTools = [
   {
     id: 2,
     gambar: Tools2,
-    nama: "Tostitos",
+    nama: "Tatos Locos",
     ket: "$1",
     dad: "200",
   },
@@ -71,7 +71,7 @@ export const listProyek = [
     desk: "Puedes realiazar pagos con cualquier cuenta bancaria nacional o internacional",
     tools: ["Débito", "Transferencia"],
     dad: "200",
-    link: "https://drive.google.com/file/d/1LKUEsUL7rpxaaupHbfDZkb9gM-ANAGqJ/view?usp=sharing" ,
+    link: "https://drive.google.com/file/d/1Qx7zeJvboRrgdWFOI-Ac1mM1JC2dvIYh/view?usp=sharing" ,
   },
   {
     id: 2,
@@ -80,6 +80,6 @@ export const listProyek = [
     desk: "Reserva y puedes pagar en efecivo cuando lo retires",
     tools: ["Dolares"],
     dad: "300",
-    link: "https://drive.google.com/file/d/1LKUEsUL7rpxaaupHbfDZkb9gM-ANAGqJ/view?usp=sharing" ,
+    link: "https://drive.google.com/file/d/1Qx7zeJvboRrgdWFOI-Ac1mM1JC2dvIYh/view?usp=sharing" ,
   },
 ];
