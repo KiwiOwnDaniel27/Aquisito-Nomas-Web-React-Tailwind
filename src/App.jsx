@@ -6,15 +6,15 @@ function App() {
   return (
     <>
       <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1">
-        <div className="animate__animated animate__fadeInUp animate__delay-3s">
+        <div className="animate__animated animate__fadeInUp animate__delay-3s py-4">
           <div className="flex items-center gap-3 mb-6 bg bg-zinc-800 w-fit p-4 rounded-2xl">
           <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md load" loading="lazy" />
             <q>Código de familia y perseverancia. 🦉</q>
           </div>
 
-          <h1 className="text-4xl/tight font-bold mb-6">Bienvenidos a "Aquisito Nomas"</h1>
+          <h1 className="text-4xl/tight font-bold mb-6 text-center">Bienvenidos a "Aquisito Nomas"</h1>
 
-          <p className="text-base/loose bm-9 opacity-50 "> Me alegra mucho que hayas venido. Somos un rinconcito tradicional 
+          <p className="xs:text-center text-base/loose bm-9 opacity-75"> Me alegra mucho que hayas venido. Somos un rinconcito tradicional 
           aquí en el centro histórico, en pleno corazón de Quito.
             <br /><br />
             Tenemos varias opciones deliciosas: nuestros platos caseros, sabor de barrio, preparados con cariño. 
@@ -27,7 +27,7 @@ function App() {
           </p>
           <br />
           <div className="flex items-center sm:gap-9 gap-12">
-            <a href="" target="alt" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">Proximamente Catálogo <i className="ri-download-line ri-lg"></i> </a>
+            <a href="" target="alt" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">Prox Catálogo <i className="ri-download-line ri-lg"></i> </a>
             <a href="#project" className="bg-green-700 p-4 rounded-2xl hover:bg-green-600"> Break Escolar <i className="ri-arrow-down-line ri-lg"></i> </a>
           </div>
 
@@ -39,7 +39,7 @@ function App() {
       <div className="about mt-32 py-10" id="acercade">
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg"
           data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-          <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md sm:hidden" loading="lazy" />
+          <img src={DataImage.HeroImage1} alt="Image" className="w-12 rounded-md sm:hidden" loading="lazy" />
           <p className="text-base/loose mb-10">Buenas días con todos. Nosotros somos Aquisito Nomas, somos
           representantes de las tradiciones del barrio San Marcos. 
           <br /><br />

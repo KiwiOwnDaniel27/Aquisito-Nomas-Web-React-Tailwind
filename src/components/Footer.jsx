@@ -1,11 +1,11 @@
 const Footer = () => {
     return (
         <div className="mt-32 py-4 flex md:flex-row flex-col gap-6 md:gap-0 justify-between items-center ">
-            <h1 className="text-2xl font-bold">Aquisito Nomas</h1>
-            <div className="flex gap-9">
+            <h1 className="text-xl font-bold">Aquisito Nomas</h1>
+            <div className="flex gap-9 text-1xl" >
                 <a href="#inicio">Ir a Inicio</a>
-                <a href="#acercade">Acerca de Nosotros</a>
-                <a href="#project">Métodos de pago</a>
+                <a href="#acercade">Acerca de</a>
+                <a href="#project">Pago</a>
             </div>
             <div className="flex items-center gap-3">
                 <a href="https://www.linkedin.com/in/daniel-quiguango-delgado-53b52a262/" target="_blank">
