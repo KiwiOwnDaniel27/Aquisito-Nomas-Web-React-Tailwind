@@ -143,7 +143,7 @@ function App() {
             </div>
             <div className="flex flex-col gap-2">
               <label className="font-semibold">Número Celular</label>
-              <input type="number" name="Numero" placeholder="Introduce tu contacto de entrega..." className="border
+              <input type="tel" name="Numero" placeholder="Introduce tu contacto de entrega..." className="border
                border-zinc-500 p-2 rounded-md" required />
             </div>
             <div className="flex flex-col gap-2">
