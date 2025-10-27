@@ -71,7 +71,7 @@ export const listProyek = [
     desk: "Puedes realiazar pagos con cualquier cuenta bancaria nacional o internacional",
     tools: ["Débito", "Transferencia"],
     dad: "200",
-    link: "https://freepass-ec-company.github.io/tienda-free-pass.html" ,
+    link: "https://drive.google.com/file/d/1LKUEsUL7rpxaaupHbfDZkb9gM-ANAGqJ/view?usp=sharing" ,
   },
   {
     id: 2,
@@ -80,6 +80,6 @@ export const listProyek = [
     desk: "Reserva y puedes pagar en efecivo cuando lo retires",
     tools: ["Dolares"],
     dad: "300",
-    link: "" ,
+    link: "https://drive.google.com/file/d/1LKUEsUL7rpxaaupHbfDZkb9gM-ANAGqJ/view?usp=sharing" ,
   },
 ];
