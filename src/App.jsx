@@ -28,7 +28,7 @@ function App() {
           <br />
           <div className="flex items-center sm:gap-9 gap-12">
             <a href="" target="alt" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">Prox Catálogo <i className="ri-download-line ri-lg"></i> </a>
-            <a href="#project" className="bg-green-700 p-4 rounded-2xl hover:bg-green-600"> Break Escolar <i className="ri-arrow-down-line ri-lg"></i> </a>
+            <a href="#herramientas" className="bg-green-700 p-4 rounded-2xl hover:bg-green-600"> Break Escolar <i className="ri-arrow-down-line ri-lg"></i> </a>
           </div>
 
         </div>
@@ -78,7 +78,7 @@ function App() {
               <div className=" flex items-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-800 
               group" key={tool.id} data-aos="fade-up" data-aos-duration="1000" data-aos-delay={tool.dad}
                 data-aos-once="true">
-                <img src={tool.gambar} alt="Tools Image" className="w-14 bg-zinc-800 p-1 grouphover:bg-zinc-900" />
+                <img src={tool.gambar} alt="Tools Image" className="w-40 bg-zinc-800 p-1 grouphover:bg-zinc-900" />
                 <div>
                   <h4 className="font-bold">{tool.nama}</h4>
                   <p className="opacity-50">{tool.ket}</p>
@@ -115,7 +115,7 @@ function App() {
                   ))}
                 </div>
                 <div className="mt-8 text-center">
-                  <a href={proyek.link} target="alt" className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600">Website</a>
+                  <a href={proyek.link} target="alt" className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600">Pagar</a>
                 </div>
               </div>
             </div>
@@ -131,7 +131,7 @@ function App() {
         <p className="text-base/loose text-center mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1000"
           data-aos-delay="500" data-aos-once="true">Te lo entregamos cuando lo solicites. </p>
 
-        <form action="https://formsubmit.co/daquiguango@espe.edu.ec" method="POST"
+        <form action="https://formsubmit.co/aquisitonomasec@hotmail.com" method="POST"
           className="bg-zinc-800 p-10 sm:w-fit w-full mx-auto rounded-md" autoComplete="off" data-aos="fade-up"
           data-aos-duration="1000" data-aos-delay="800" data-aos-once="true">
 
