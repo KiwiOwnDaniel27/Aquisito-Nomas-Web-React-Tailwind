@@ -22,7 +22,7 @@ const Navbar = () => {
 
     return <div className="navbar py-7 flex items-center justify-between" id="inicio">
         <div className="logo">
-            <h1 className="text-2xl font-bold bg-white text-black p-1 md:bg-transparent
+            <h1 className="text-2xl font-bold text-white p-1 md:bg-transparent
             md:text-white flex items-center">Aquisito Nomas Web
             <img src={DatImag.LogoImage} alt="" className="w-12 mx-6 rounded-md"/>
             </h1>
