@@ -1,7 +1,13 @@
 const Footer = () => {
     return (
-        <div className="mt-32 py-4 flex md:flex-row flex-col gap-6 md:gap-0 justify-between items-center ">
-            <h1 className="text-xl font-bold">Aquisito Nomas</h1>
+        <div className="mt-32 py-4 flex md:flex-row flex-col gap-6 md:gap-0 justify-between items-center">
+            <h1 className="text-1xl font-bold text-center">Aquisito Nomas
+                <br />
+                Derechos reservados
+                <br />
+                DQ Company
+            </h1>
+           
             <div className="flex gap-9 text-1xl" >
                 <a href="#inicio">Ir a Inicio</a>
                 <a href="#acercade">Acerca de</a>
