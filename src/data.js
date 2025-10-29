@@ -77,7 +77,7 @@ export const listProyek = [
     id: 2,
     gambar: Proyek2,
     nama: "Pago en efectivo",
-    desk: "Reserva y puedes pagar en efecivo cuando lo retires",
+    desk: "Reserva con tiempo, puedes reservar y pagar en efecivo cuando lo retires",
     tools: ["Dolares"],
     dad: "300",
     link: "https://drive.google.com/file/d/1BM99TQvZkk5GNcaij4Y2t6QVFg1qF9Mc/view?usp=sharing" ,
